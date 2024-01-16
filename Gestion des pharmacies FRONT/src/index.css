@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.navbar {
+  margin-top: 60px;
+  height: 90%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.header {
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+}
+
+
+
+.selection{
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.header h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  color: blue;
+  float: inline-end;
+  margin-right: 277px;
+  margin-top: 15px;
+}
+.result-container h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.navbar h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+
+.selection h3 {
+  margin-left: 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+ 
+}
+.selection select {
+  margin-left: 10px;
+  padding: 0;
+  height: fit-content;
+  margin-top: 19px;
+}
+
+
+.maps {
+  height: 100vh;
+  position: relative;
+}
+
+
+
+.loader {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loader img {
+  width: 400px;
+}
+
+.loader h1 {
+  margin-top: -80px;
+}
+
+.location-info {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.location-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-info li {
+  padding: 5px 0;
+}
+
+.location-icon {
+  font-size: 2rem ;
+  color: green;
+}
+.card{
+  background-color: darkgrey;
+  margin-left: 1rem;
+}
+.card-title{
+  font-size: 23px;
+  color: green;
+  text-align: center;
+  margin-top: -0px;
+}
+.card-img-top{
+  width: 16rem;
+}
+.card-text{
+  margin-top: -20px;
+  margin-left: 2ch;
+  margin-right: 2ch;
+  
+}
+
+.btn-loc{
+  margin-top: -5px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}

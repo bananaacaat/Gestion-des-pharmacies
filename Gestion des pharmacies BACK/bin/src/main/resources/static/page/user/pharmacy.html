@@ -1,0 +1,73 @@
+<script src="script/user/pharmacy.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/Login-Form-Basic-icons.css">
+    <div class="container-fluid">
+        <h3 class="text-dark mb-4" style="margin-top: 10px;">Votre pharmacie</h3>
+        <div class="row mb-3">
+            <div class="col-lg-4">
+                <div class="card mb-3"></div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row mb-3 d-none">
+                    
+                </div>
+       
+            </div>
+        </div>
+        <div class="card shadow mb-5">
+            <div  class="card-body text-center shadow"><div id="img1" ><img width="500" height="300"></div>
+                <form id="file-upload-form">
+                    <label style="margin-top: 10px;" for="file-upload-input">Selectioner </label>
+                    <input type="file" id="file-upload-input" name="image">
+                    <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit" style="margin-top: 14px;" id="img upload">Charger l'image</button></div>
+                </form>
+            </div>
+            <div class="card-header py-3">
+                <p class="text-primary m-0 fw-bold">Informations générales</p>
+            </div>
+            <div class="card-body">
+                
+                    <div class="mb-3"><label class="form-label" for="nom"><strong>Nom</strong></label><input class="form-control" type="text" id="nom" placeholder="A définir" name="nom"></div>
+                    <div class="mb-3"><label class="form-label" for="nom"><strong>Adresse</strong></label><input class="form-control" type="text" id="adresse" placeholder="A définir" name="adresse"></div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3"><label class="form-label" for="ville"><strong>Ville</strong></label><select class="form-control" id="ville" name="ville"><option value="0">Choisir une ville</option></select></div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3"><label class="form-label" for="zone"><strong>Zone</strong></label><select class="form-control" id="zone" name="zone"><option value="0">Choisir une zone</option></select></div>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="card-header py-3">
+                <p class="text-primary m-0 fw-bold">Localisation</p>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="lat"><strong>Latitude</strong></label><input class="form-control" type="text" id="lat" name="lat"></div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3"><label class="form-label" for="log"><strong>longitude</strong></label><input class="form-control" type="text" id="log"  name="log"></div> 
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div id="map"></div>
+                    
+                </div>
+              
+                    <div class="mb-3"><button class="btn btn-primary btn-sm" type="button" id="btn" style="margin-top: 14px;">Modifier</button></div>
+                
+             
+            </div>
+        </div>
+    </div>
+    <footer class="bg-white sticky-footer">
+		<div class="container my-auto">
+			<div class="text-center my-auto copyright"><span>Copyright © Pharmacy locator 2023</span></div>
+		</div>
+	</footer>
+   
