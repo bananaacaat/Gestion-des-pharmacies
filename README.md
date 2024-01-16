@@ -57,17 +57,17 @@ Intégration avec des services de géolocalisation pour un suivi en temps réel 
 
 
 # Démarrage
-### Cloner le dépôt :
+- Cloner le dépôt :
 git clone https://github.com/bananaacaat/Gestion-des-pharmacies.git
 
-### Configurer le backend :
+- Configurer le backend :
 Creer une base de donnée avec le nom pharmacie:
 et telecharger les dependences:
 ` mvn install `
 Lancer le projet Par : 
 ` mvn spring-boot:run `
 
-### Configurer le frontend :
+- Configurer le frontend :
 Installer les dépendances : `npm install`
 Démarrer l'application React : `npm start`
 
