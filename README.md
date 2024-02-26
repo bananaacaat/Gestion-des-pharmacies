@@ -52,8 +52,6 @@ Intégration avec des services de géolocalisation pour un suivi en temps réel 
 ![WhatsApp Image 2024-01-15 at 22 44 54_6bb319b8](https://github.com/bananaacaat/Gestion-des-pharmacies/assets/147453939/f7cd1442-5799-4e93-b377-d98ad9424155)
 ![WhatsApp Image 2024-01-15 at 22 44 54_4888bbd4](https://github.com/bananaacaat/Gestion-des-pharmacies/assets/147453939/5f82f9fe-5491-4f69-a8c6-b21099614ad4)
 
-# Test SonarQube
-![WhatsApp Image 2024-01-16 at 16 04 48_495cc5ba](https://github.com/bananaacaat/Gestion-des-pharmacies/assets/147453939/d9e87121-2c33-4d6b-84c8-9ed0fb90c3e3)
 
 # Interfaces Utilisateur Réactives
 React se distingue par sa gestion efficace du rendu et son approche déclarative. Cette bibliothèque offre la possibilité de développer des interfaces utilisateur réactives en mettant à jour uniquement les parties de la page nécessaires, ce qui se traduit par une amélioration significative des performances de l'application. Les composants React se réactualisent automatiquement en réponse aux changements d'état, procurant ainsi une expérience utilisateur fluide.
